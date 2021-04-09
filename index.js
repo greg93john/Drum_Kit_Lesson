@@ -32,5 +32,5 @@ function playDrumSound(letter) {
 function buttonAnimation (currentKey) {
   var activeButton = document.querySelector("." + currentKey);
   activeButton.classList.add("pressed");
-  setTimeOut(function(){activeButton.classList.remove("pressed");},100);
+  setTimeOut(function(){activeButton.classList.remove("pressed");},500);
 }
